@@ -1,0 +1,327 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.rankList_container .header_box.data-v-7a12ddc6 {
+  height: 406rpx;
+  width: 100%;
+  position: relative;
+}
+.rankList_container .header_box .bg_img_box.data-v-7a12ddc6 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.rankList_container .header_box .bg_img_box image.data-v-7a12ddc6 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -webkit-filter: blur(40rpx);
+          filter: blur(40rpx);
+}
+.rankList_container .header_box .bg_img_box view.data-v-7a12ddc6 {
+  background: -webkit-linear-gradient(top, transparent 0%, #323232 100%);
+  background: linear-gradient(180deg, transparent 0%, #323232 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.rankList_container .header_box .title_txt_line.data-v-7a12ddc6 {
+  padding: 24rpx 0 38rpx;
+  height: 50rpx;
+  font-size: 36rpx;
+  font-family: PingFang-SC-Bold, PingFang-SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 50rpx;
+  text-align: center;
+}
+.rankList_container .header_box .plot_desc_box.data-v-7a12ddc6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0 31rpx 0 24rpx;
+  box-sizing: border-box;
+}
+.rankList_container .header_box .plot_desc_box .l_box.data-v-7a12ddc6 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow: hidden;
+}
+.rankList_container .header_box .plot_desc_box .l_box .f_txt.data-v-7a12ddc6 {
+  height: 56rpx;
+  font-size: 40rpx;
+  font-family: PingFang-SC-Bold, PingFang-SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 56rpx;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 8rpx;
+}
+.rankList_container .header_box .plot_desc_box .l_box .s_txt.data-v-7a12ddc6 {
+  height: 37rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 37rpx;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 39rpx;
+}
+.rankList_container .header_box .plot_desc_box .l_box .footer_line.data-v-7a12ddc6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.rankList_container .header_box .plot_desc_box .l_box .footer_line view.data-v-7a12ddc6 {
+  height: 40rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 40rpx;
+}
+.rankList_container .header_box .plot_desc_box .l_box .footer_line image.data-v-7a12ddc6 {
+  width: 38rpx;
+  height: 38rpx;
+  margin-right: 8rpx;
+}
+.rankList_container .header_box .plot_desc_box .r_box .img_box.data-v-7a12ddc6 {
+  width: 164rpx;
+  height: 220rpx;
+  border-radius: 8rpx;
+}
+.rankList_container .main_box.data-v-7a12ddc6 {
+  background: #FFFFFF;
+  border-radius: 16rpx 16rpx 0 0;
+  margin-top: -6rpx;
+}
+.rankList_container .main_box .nav_box.data-v-7a12ddc6 {
+  border-bottom: 2rpx solid #F0F0F0;
+  padding: 24rpx 24rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.rankList_container .main_box .nav_box .nav_label.data-v-7a12ddc6 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+.rankList_container .main_box .nav_box .nav_label .item_label.data-v-7a12ddc6 {
+  height: 50rpx;
+  font-size: 36rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #696969;
+  line-height: 50rpx;
+  margin-right: 32rpx;
+  position: relative;
+}
+.rankList_container .main_box .nav_box .nav_label .item_label.data-v-7a12ddc6:last-child {
+  margin-right: 0;
+}
+.rankList_container .main_box .nav_box .nav_label .item_label.active.data-v-7a12ddc6 {
+  font-weight: 600;
+  color: #333333;
+}
+.rankList_container .main_box .nav_box .nav_label .item_label.active.data-v-7a12ddc6::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -6rpx;
+  width: 20rpx;
+  height: 6rpx;
+  background: -webkit-linear-gradient(right, #5BA7F3 0%, #2E6EE2 100%);
+  background: linear-gradient(270deg, #5BA7F3 0%, #2E6EE2 100%);
+  border-radius: 3rpx;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.rankList_container .main_box .nav_box .type_box.data-v-7a12ddc6 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  height: 50rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 8rpx;
+  background: #E1ECFF;
+  border-radius: 4rpx;
+  position: relative;
+}
+.rankList_container .main_box .nav_box .type_box .date_txt.data-v-7a12ddc6 {
+  height: 40rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #2E6EE2;
+  line-height: 40rpx;
+}
+.rankList_container .main_box .nav_box .type_box image.data-v-7a12ddc6 {
+  width: 28rpx;
+  height: 28rpx;
+  margin-left: 2rpx;
+}
+.rankList_container .main_box .nav_box .type_box .date_select_box.data-v-7a12ddc6 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.rankList_container .main_box .nav_box .type_box .date_select_box .picker_box.data-v-7a12ddc6 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 0;
+  -webkit-filter: opacity(0);
+          filter: opacity(0);
+}
+.rankList_container .main_box .slice_list_box.data-v-7a12ddc6 {
+  padding: 0 24rpx 36rpx;
+  box-sizing: border-box;
+}
+.rankList_container .main_box .slice_list_box .item_slice.data-v-7a12ddc6 {
+  margin-top: 36rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.rankList_container .main_box .slice_list_box .item_slice .slice_left_box.data-v-7a12ddc6 {
+  position: relative;
+}
+.rankList_container .main_box .slice_list_box .item_slice .slice_left_box .slice_img.data-v-7a12ddc6 {
+  width: 142rpx;
+  height: 190rpx;
+  border-radius: 6rpx;
+  display: block;
+}
+.rankList_container .main_box .slice_list_box .item_slice .slice_left_box .rank_num.data-v-7a12ddc6 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 44rpx;
+  height: 40rpx;
+  border-radius: 6rpx 0 10rpx 0;
+  background: -webkit-linear-gradient(right, #FCE6C8 0%, #FABD96 100%);
+  background: linear-gradient(270deg, #FCE6C8 0%, #FABD96 100%);
+  height: 40rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Bold, PingFang-SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 40rpx;
+  text-align: center;
+}
+.rankList_container .main_box .slice_list_box .item_slice .txt_slice_box.data-v-7a12ddc6 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 8rpx 8rpx 12rpx 21rpx;
+  box-sizing: border-box;
+  box-shadow: 2rpx 2rpx 8rpx 1rpx rgba(215, 215, 215, 0.5);
+  border-radius: 12rpx;
+}
+.rankList_container .main_box .slice_list_box .item_slice .txt_slice_box .desc_box.data-v-7a12ddc6 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  margin-right: 31rpx;
+}
+.rankList_container .main_box .slice_list_box .item_slice .txt_slice_box .desc_box .video_name.data-v-7a12ddc6 {
+  margin-top: 4rpx;
+  height: 45rpx;
+  font-size: 32rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #222222;
+  line-height: 45rpx;
+  margin-bottom: 12rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.rankList_container .main_box .slice_list_box .item_slice .txt_slice_box .desc_box .label_txt.data-v-7a12ddc6 {
+  height: 40rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #999999;
+  line-height: 40rpx;
+  margin-bottom: 8rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.rankList_container .main_box .slice_list_box .item_slice .txt_slice_box .desc_box .people_name.data-v-7a12ddc6 {
+  height: 37rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #999999;
+  line-height: 37rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.rankList_container .main_box .slice_list_box .item_slice .txt_slice_box .pf_box .num_txt.data-v-7a12ddc6 {
+  width: 82rpx;
+  height: 34rpx;
+  background: rgba(243, 78, 66, 0.08);
+  border-radius: 17rpx;
+  height: 30rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #F34E42;
+  line-height: 30rpx;
+  text-align: center;
+}
+

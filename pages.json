@@ -1,0 +1,179 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/rankList/rankList",
+			"style": {
+				"navigationBarTitleText": "排行榜",
+				"app-plus": {
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/filmLibrary/filmLibrary",
+			"style": {
+				"navigationBarTitleText": "片库",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/extension/extension",
+			"style": {
+				"navigationBarTitleText": "推广",
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle":"custom"
+			}
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView": false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF"
+            }
+            
+        }
+        ,{
+            "path" : "pages/historyList/historyList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "历史记录",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"titleText": "历史记录",
+						"buttons": [
+							{
+								"text": "编辑",
+								"float": "right",
+								"fontSize": "14",
+								"width": "40px"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/myCache/myCache",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "缓存管理",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"titleText": "缓存管理",
+						"buttons": [
+							{
+								"text": "编辑",
+								"float": "right",
+								"fontSize": "14",
+								"width": "40px"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/videoMoreList/videoMoreList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"titleText": "更多"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/videoInfo/videoInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "看剧星球",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#555555",
+	    "selectedColor": "#2E6EE2",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+					"pagePath": "pages/index/index",
+					"iconPath": "static/images/index_page_icon.png",
+					"selectedIconPath": "static/images/index_page_icon_active.png",
+					"text": "首页"
+				},
+				{
+					"pagePath": "pages/rankList/rankList",
+					"iconPath": "static/images/rankList_page_icon.png",
+					"selectedIconPath": "static/images/rankList_page_icon_active.png",
+					"text": "排行榜"
+				},
+				{
+					"pagePath": "pages/filmLibrary/filmLibrary",
+					"iconPath": "static/images/filmLibrary_page_icon.png",
+					"selectedIconPath": "static/images/filmLibrary_page_icon_active.png",
+					"text": "片库"
+				},
+				{
+					"pagePath": "pages/extension/extension",
+					"iconPath": "static/images/extension_page_icon.png",
+					"selectedIconPath": "static/images/extension_page_icon_active.png",
+					"text": "推广"
+				},
+				{
+					"pagePath": "pages/my/my",
+					"iconPath": "static/images/my_page_icon.png",
+					"selectedIconPath": "static/images/my_page_icon_active.png",
+					"text": "我的"
+				}
+		]
+	}
+}

@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.extension_container.data-v-0be63c06 {
+  background: -webkit-linear-gradient(top, #2E6EE2 0%, #70A0F8 100%);
+  background: linear-gradient(180deg, #2E6EE2 0%, #70A0F8 100%);
+}
+.extension_container .canvas_box.data-v-0be63c06 {
+  position: fixed;
+  left: 9999px;
+  top: 9999px;
+}
+.extension_container .header_box.data-v-0be63c06 {
+  position: relative;
+}
+.extension_container .header_box .img_f.data-v-0be63c06 {
+  width: 750rpx;
+  height: 920rpx;
+  display: block;
+}
+.extension_container .header_box .img_s.data-v-0be63c06 {
+  width: 414rpx;
+  height: 296rpx;
+  position: absolute;
+  left: 48rpx;
+  top: 57rpx;
+}
+.extension_container .extension_code_box.data-v-0be63c06 {
+  width: 658rpx;
+  padding: 90rpx 0 50rpx;
+  background: #FFFFFF;
+  border-radius: 12rpx;
+  margin: -461rpx auto 0;
+  position: relative;
+}
+.extension_container .extension_code_box .code_title.data-v-0be63c06 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #2E6EE2;
+  width: 365rpx;
+  height: 94rpx;
+  border: 1px solid #DFDFDF;
+  border-radius: 4rpx;
+}
+.extension_container .extension_code_box .code_title .txt.data-v-0be63c06 {
+  width: 308rpx;
+  height: 94rpx;
+  position: absolute;
+  left: 50%;
+  top: -20rpx;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #2E6EE2;
+  border: 1px solid #DFDFDF;
+  text-align: center;
+  height: 94rpx;
+  font-size: 42rpx;
+  font-family: PingFang-SC-Bold, PingFang-SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 94rpx;
+  border-radius: 4rpx;
+}
+.extension_container .extension_code_box .code_box.data-v-0be63c06 {
+  width: 528rpx;
+  margin: 0 auto 32rpx;
+  border: 14rpx solid #84A5EC;
+  border-radius: 32rpx;
+  padding: 16rpx 0 38rpx;
+}
+.extension_container .extension_code_box .code_box .code_txt.data-v-0be63c06 {
+  height: 45rpx;
+  font-size: 32rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 45rpx;
+  text-align: center;
+  margin-bottom: 12rpx;
+}
+.extension_container .extension_code_box .code_box .code_img.data-v-0be63c06 {
+  width: 330rpx;
+  height: 330rpx;
+  display: block;
+  margin: 0 auto 12rpx;
+}
+.extension_container .extension_code_box .code_box .explain_txt.data-v-0be63c06 {
+  height: 30rpx;
+  font-size: 22rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 30rpx;
+  text-align: center;
+}
+.extension_container .extension_code_box .footer_btn.data-v-0be63c06 {
+  width: 606rpx;
+  height: 88rpx;
+  border-radius: 44rpx;
+  background: #F89621;
+  text-align: center;
+  height: 88rpx;
+  font-size: 38rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 88rpx;
+  margin: 0 auto;
+}
+.extension_container .extension_desc_box.data-v-0be63c06 {
+  margin-top: 91rpx;
+  padding-bottom: 64rpx;
+}
+.extension_container .extension_desc_box .item_desc_box.data-v-0be63c06 {
+  background: #FFFFFF;
+  width: 658rpx;
+  margin: 77rpx auto 0;
+  border-radius: 12rpx;
+  position: relative;
+  padding: 95rpx 28rpx 60rpx;
+  box-sizing: border-box;
+}
+.extension_container .extension_desc_box .item_desc_box .title_txt.data-v-0be63c06 {
+  padding: 0 70rpx;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #2E6EE2;
+  border-radius: 8rpx;
+  height: 92rpx;
+  font-size: 34rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 92rpx;
+}
+.extension_container .extension_desc_box .item_desc_box .title_txt.data-v-0be63c06::after {
+  content: '';
+  position: absolute;
+  left: 34rpx;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 14rpx;
+  height: 14rpx;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+.extension_container .extension_desc_box .item_desc_box .title_txt.data-v-0be63c06::before {
+  content: '';
+  position: absolute;
+  right: 34rpx;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 14rpx;
+  height: 14rpx;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+.extension_container .extension_desc_box .item_desc_box .bg_img_f.data-v-0be63c06 {
+  position: absolute;
+  left: -46rpx;
+  bottom: -100rpx;
+  width: 149rpx;
+  height: 149rpx;
+}
+.extension_container .extension_desc_box .item_desc_box .bg_img_s.data-v-0be63c06 {
+  position: absolute;
+  right: -46rpx;
+  bottom: -31rpx;
+  width: 83rpx;
+  height: 123rpx;
+}
+.extension_container .extension_desc_box .item_desc_box .content_box .txt.data-v-0be63c06 {
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #214A94;
+  line-height: 40rpx;
+  margin-bottom: 12rpx;
+}
+.extension_container .extension_desc_box .item_desc_box .content_box .txt.data-v-0be63c06:last-child {
+  margin-bottom: 0;
+}
+.extension_container .extension_desc_box .item_desc_box.data-v-0be63c06:first-child {
+  margin-top: 0;
+}
+.extension_container .share_mask_box.data-v-0be63c06 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.extension_container .share_mask_box .share_int_box.data-v-0be63c06 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #FFFFFF;
+}
+.extension_container .share_mask_box .share_int_box .title_txt.data-v-0be63c06 {
+  height: 37rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 37rpx;
+  text-align: center;
+  padding: 21rpx 0 17rpx;
+}
+.extension_container .share_mask_box .share_int_box .share_target.data-v-0be63c06 {
+  padding: 0 70rpx 72rpx 70rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.extension_container .share_mask_box .share_int_box .share_target .item_btn image.data-v-0be63c06 {
+  width: 130rpx;
+  height: 130rpx;
+  margin-bottom: 4rpx;
+}
+.extension_container .share_mask_box .share_int_box .share_target .item_btn .txt.data-v-0be63c06 {
+  height: 37rpx;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 37rpx;
+  text-align: center;
+  width: 130rpx;
+}
+.extension_container .share_mask_box .share_int_box .footer_btn_txt.data-v-0be63c06 {
+  border-top: 2rpx solid #F7F7F7;
+  height: 86rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 86rpx;
+  text-align: center;
+}
+

@@ -1,0 +1,448 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.videoInfo_container .video_play_box.data-v-7217a49a {
+  height: 421rpx;
+  position: relative;
+}
+.videoInfo_container .video_play_box .videoBox.data-v-7217a49a {
+  width: 100%;
+  height: 100%;
+}
+.videoInfo_container .video_main_box .video_desc.data-v-7217a49a {
+  padding: 28rpx 24rpx;
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #F0F0F0;
+}
+.videoInfo_container .video_main_box .video_desc .top_box.data-v-7217a49a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 12rpx;
+}
+.videoInfo_container .video_main_box .video_desc .top_box .l_box.data-v-7217a49a {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+.videoInfo_container .video_main_box .video_desc .top_box .l_box .video_n.data-v-7217a49a {
+  height: 45rpx;
+  font-size: 32rpx;
+  font-family: PingFang-SC-Bold, PingFang-SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 45rpx;
+  margin-right: 40rpx;
+}
+.videoInfo_container .video_main_box .video_desc .top_box .l_box .score_n.data-v-7217a49a {
+  height: 45rpx;
+  font-size: 32rpx;
+  font-family: PingFang-SC-Bold, PingFang-SC;
+  font-weight: bold;
+  color: #FF4848;
+  line-height: 45rpx;
+}
+.videoInfo_container .video_main_box .video_desc .top_box .r_box.data-v-7217a49a {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  height: 45rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.videoInfo_container .video_main_box .video_desc .top_box .r_box text.data-v-7217a49a {
+  height: 40rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #999999;
+  line-height: 40rpx;
+}
+.videoInfo_container .video_main_box .video_desc .top_box .r_box image.data-v-7217a49a {
+  width: 13rpx;
+  height: 24rpx;
+  margin-left: 11rpx;
+}
+.videoInfo_container .video_main_box .video_desc .second_other_box.data-v-7217a49a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 32rpx;
+}
+.videoInfo_container .video_main_box .video_desc .second_other_box .txt.data-v-7217a49a {
+  height: 33rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #666666;
+  line-height: 33rpx;
+  margin-right: 12rpx;
+}
+.videoInfo_container .video_main_box .video_desc .second_other_box .line.data-v-7217a49a {
+  width: 2rpx;
+  height: 20rpx;
+  margin-right: 12rpx;
+  background: #C9C9C9;
+}
+.videoInfo_container .video_main_box .video_desc .button_box.data-v-7217a49a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.videoInfo_container .video_main_box .video_desc .button_box .l_but.data-v-7217a49a {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 42rpx;
+}
+.videoInfo_container .video_main_box .video_desc .button_box .l_but image.data-v-7217a49a {
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 10rpx;
+}
+.videoInfo_container .video_main_box .video_desc .button_box .l_but text.data-v-7217a49a {
+  height: 33rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Regular, PingFang-SC;
+  font-weight: 400;
+  color: #777777;
+  line-height: 33rpx;
+}
+.videoInfo_container .video_main_box .video_desc .button_box .r_but.data-v-7217a49a {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+.videoInfo_container .video_main_box .video_desc .button_box .r_but image.data-v-7217a49a {
+  width: 42rpx;
+  height: 42rpx;
+  margin-right: 36rpx;
+}
+.videoInfo_container .video_main_box .video_desc .button_box .r_but image.data-v-7217a49a:last-child {
+  margin-right: 0;
+}
+.videoInfo_container .video_main_box .video_line_download.data-v-7217a49a {
+  padding: 32rpx 24rpx;
+  box-sizing: border-box;
+}
+.videoInfo_container .video_main_box .video_line_download .item_download_box.data-v-7217a49a {
+  margin-bottom: 32rpx;
+}
+.videoInfo_container .video_main_box .video_line_download .item_download_box .title_line_box.data-v-7217a49a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.videoInfo_container .video_main_box .video_line_download .item_download_box .title_line_box .line_l_box.data-v-7217a49a {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 53rpx;
+}
+.videoInfo_container .video_main_box .video_line_download .item_download_box .title_line_box .line_l_box text.data-v-7217a49a {
+  height: 53rpx;
+  font-size: 38rpx;
+  font-family: PingFang-SC-Bold, PingFang-SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 53rpx;
+  margin-right: 34rpx;
+}
+.videoInfo_container .video_main_box .video_line_download .item_download_box .title_line_box .line_l_box image.data-v-7217a49a {
+  width: 42rpx;
+  height: 42rpx;
+}
+.videoInfo_container .video_main_box .video_line_download .item_download_box .title_line_box .line_r_box.data-v-7217a49a {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  height: 53rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.videoInfo_container .video_main_box .video_line_download .item_download_box .title_line_box .line_r_box text.data-v-7217a49a {
+  height: 33rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Regular, PingFang-SC;
+  font-weight: 400;
+  color: #999999;
+  line-height: 33rpx;
+  margin-right: 19rpx;
+}
+.videoInfo_container .video_main_box .video_line_download .item_download_box .title_line_box .line_r_box image.data-v-7217a49a {
+  width: 13rpx;
+  height: 24rpx;
+}
+.videoInfo_container .video_main_box .video_line_download .item_download_box .setNumber_box .scroll_view_box.data-v-7217a49a {
+  white-space: nowrap;
+}
+.videoInfo_container .video_main_box .video_line_download .item_download_box .setNumber_box .scroll_view_box .scroll_view_item.data-v-7217a49a {
+  width: 116rpx;
+  background: #FFFFFF;
+  box-shadow: 1rpx 4rpx 16rpx 7rpx rgba(238, 236, 236, 0.5);
+  border-radius: 4rpx;
+  height: 116rpx;
+  font-size: 32rpx;
+  font-family: PingFang-SC-Bold, PingFang-SC;
+  font-weight: bold;
+  color: #2E6EE2;
+  line-height: 116rpx;
+  text-align: center;
+  display: inline-block;
+  margin: 28rpx 30rpx 32rpx 0;
+}
+.videoInfo_container .video_main_box .video_line_download .item_download_box.data-v-7217a49a:last-child {
+  margin-bottom: 0;
+}
+.videoInfo_container .video_main_box .role_line_box.data-v-7217a49a {
+  padding: 0 24rpx 32rpx;
+  box-sizing: border-box;
+}
+.videoInfo_container .video_main_box .role_line_box .title_name.data-v-7217a49a {
+  height: 53rpx;
+  font-size: 38rpx;
+  font-family: PingFang-SC-Bold, PingFang-SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 53rpx;
+  margin-bottom: 28rpx;
+}
+.videoInfo_container .video_main_box .role_line_box .role_list_box .scroll_view_box.data-v-7217a49a {
+  white-space: nowrap;
+}
+.videoInfo_container .video_main_box .role_line_box .role_list_box .scroll_view_box .scroll_view_item.data-v-7217a49a {
+  display: inline-block;
+}
+.videoInfo_container .video_main_box .role_line_box .role_list_box .scroll_view_box .scroll_view_item .role_avatar.data-v-7217a49a {
+  width: 90rpx;
+  height: 90rpx;
+  display: block;
+  margin: 0 40rpx 12rpx 0;
+}
+.videoInfo_container .video_main_box .role_line_box .role_list_box .scroll_view_box .scroll_view_item .role_name.data-v-7217a49a {
+  width: 90rpx;
+  height: 40rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Regular, PingFang-SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 40rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.videoInfo_container .video_main_box .relevant_recommend_box.data-v-7217a49a {
+  padding: 0 24rpx 32rpx;
+  box-sizing: border-box;
+}
+.videoInfo_container .video_main_box .relevant_recommend_box .title_name.data-v-7217a49a {
+  height: 53rpx;
+  font-size: 38rpx;
+  font-family: PingFang-SC-Bold, PingFang-SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 53rpx;
+  padding-bottom: 28rpx;
+}
+.videoInfo_container .video_main_box .relevant_recommend_box .recommend_video_list .item_rec.data-v-7217a49a {
+  margin-bottom: 24rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.videoInfo_container .video_main_box .relevant_recommend_box .recommend_video_list .item_rec .l_box.data-v-7217a49a {
+  position: relative;
+}
+.videoInfo_container .video_main_box .relevant_recommend_box .recommend_video_list .item_rec .l_box image.data-v-7217a49a {
+  width: 245rpx;
+  height: 138rpx;
+  display: block;
+  border-radius: 8rpx;
+}
+.videoInfo_container .video_main_box .relevant_recommend_box .recommend_video_list .item_rec .l_box text.data-v-7217a49a {
+  height: 30rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 30rpx;
+  position: absolute;
+  left: 0;
+  bottom: 13rpx;
+}
+.videoInfo_container .video_main_box .relevant_recommend_box .recommend_video_list .item_rec .r_box.data-v-7217a49a {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-left: 20rpx;
+}
+.videoInfo_container .video_main_box .relevant_recommend_box .recommend_video_list .item_rec .r_box .desc_txt.data-v-7217a49a {
+  height: 84rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #222222;
+  line-height: 42rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.videoInfo_container .video_main_box .relevant_recommend_box .recommend_video_list .item_rec .r_box .footer_box.data-v-7217a49a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 8rpx;
+}
+.videoInfo_container .video_main_box .relevant_recommend_box .recommend_video_list .item_rec .r_box .footer_box .txt.data-v-7217a49a {
+  height: 30rpx;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #999999;
+  line-height: 30rpx;
+  margin-right: 22rpx;
+}
+.videoInfo_container .video_main_box .relevant_recommend_box .recommend_video_list .item_rec .r_box .footer_box .line.data-v-7217a49a {
+  width: 2rpx;
+  height: 20rpx;
+  background: #999999;
+  margin-right: 22rpx;
+}
+.videoInfo_container .video_main_box .relevant_recommend_box .recommend_video_list .item_rec.data-v-7217a49a:last-child {
+  margin-bottom: 0;
+}
+.videoInfo_container .video_main_box .more_recommend_box.data-v-7217a49a {
+  padding: 0 24rpx 32rpx;
+  box-sizing: border-box;
+}
+.videoInfo_container .video_main_box .more_recommend_box .title_name.data-v-7217a49a {
+  height: 53rpx;
+  font-size: 38rpx;
+  font-family: PingFang-SC-Bold, PingFang-SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 53rpx;
+  margin-bottom: 28rpx;
+}
+.videoInfo_container .video_main_box .more_recommend_box .row_list_box .scroll_view_box.data-v-7217a49a {
+  white-space: nowrap;
+}
+.videoInfo_container .video_main_box .more_recommend_box .row_list_box .scroll_view_box .scroll_view_item.data-v-7217a49a {
+  display: inline-block;
+  margin-right: 20rpx;
+}
+.videoInfo_container .video_main_box .more_recommend_box .row_list_box .scroll_view_box .scroll_view_item .cover_box.data-v-7217a49a {
+  position: relative;
+  margin-bottom: 20rpx;
+}
+.videoInfo_container .video_main_box .more_recommend_box .row_list_box .scroll_view_box .scroll_view_item .cover_box image.data-v-7217a49a {
+  width: 218rpx;
+  height: 290rpx;
+  border-radius: 8rpx;
+  display: block;
+}
+.videoInfo_container .video_main_box .more_recommend_box .row_list_box .scroll_view_box .scroll_view_item .cover_box text.data-v-7217a49a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 0rpx 25rpx 0rpx 8rpx;
+  width: 75rpx;
+  height: 37rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 37rpx;
+  background: -webkit-linear-gradient(270edg, #515151 100%, #2B2F35 100%);
+  background: linear-gradient(270edg, #515151 100%, #2B2F35 100%);
+}
+.videoInfo_container .video_main_box .more_recommend_box .row_list_box .scroll_view_box .scroll_view_item .video_name.data-v-7217a49a {
+  width: 218rpx;
+  height: 42rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Regular, PingFang-SC;
+  font-weight: 400;
+  color: #222222;
+  line-height: 42rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.videoInfo_container .video_main_box .more_recommend_box .row_list_box .scroll_view_box .scroll_view_item .update_num.data-v-7217a49a {
+  width: 218rpx;
+  height: 37rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #999999;
+  line-height: 37rpx;
+  padding-top: 12rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+

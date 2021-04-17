@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.filmLibrary_container .header_nav_box.data-v-5567d936 {
+  height: 50rpx;
+  padding: 25rpx 0 17rpx;
+  position: relative;
+}
+.filmLibrary_container .header_nav_box .title_txt.data-v-5567d936 {
+  width: 100%;
+  text-align: center;
+  height: 50rpx;
+  font-size: 36rpx;
+  font-family: PingFang-SC-Bold, PingFang-SC;
+  font-weight: bold;
+  color: #222222;
+  line-height: 50rpx;
+}
+.filmLibrary_container .header_nav_box .search_icon.data-v-5567d936 {
+  position: absolute;
+  top: 50%;
+  right: 24rpx;
+  width: 38rpx;
+  height: 38rpx;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.filmLibrary_container .main_box.data-v-5567d936 {
+  padding: 38rpx 24rpx 0;
+  box-sizing: border-box;
+}
+.filmLibrary_container .main_box .screen_film_box .screen_line_box.data-v-5567d936 {
+  margin-bottom: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.filmLibrary_container .main_box .screen_film_box .screen_line_box .l_box.data-v-5567d936 {
+  width: 100rpx;
+  margin-right: 20rpx;
+  height: 48rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Medium, PingFang-SC;
+  font-weight: 500;
+  color: #666666;
+  line-height: 48rpx;
+  text-align: center;
+}
+.filmLibrary_container .main_box .screen_film_box .screen_line_box .l_box.active.data-v-5567d936 {
+  background: rgba(46, 110, 226, 0.1);
+  border-radius: 3rpx;
+  color: #2E6EE2;
+}
+.filmLibrary_container .main_box .screen_film_box .screen_line_box .r_box.data-v-5567d936 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow: hidden;
+}
+.filmLibrary_container .main_box .screen_film_box .screen_line_box .r_box .scroll_film_box.data-v-5567d936 {
+  white-space: nowrap;
+}
+.filmLibrary_container .main_box .screen_film_box .screen_line_box .r_box .scroll_film_box .scroll_view_item_H.data-v-5567d936 {
+  display: inline-block;
+  min-width: 100rpx;
+  height: 48rpx;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Regular, PingFang-SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 40rpx;
+  margin-right: 20rpx;
+  text-align: center;
+}
+.filmLibrary_container .main_box .screen_film_box .screen_line_box .r_box .scroll_film_box .scroll_view_item_H.active.data-v-5567d936 {
+  background: rgba(46, 110, 226, 0.1);
+  border-radius: 3rpx;
+  color: #2E6EE2;
+}
+.filmLibrary_container .main_box .film_video_box.data-v-5567d936 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.filmLibrary_container .main_box .film_video_box .item_film.data-v-5567d936 {
+  margin-right: 24rpx;
+  width: 218rpx;
+  margin-bottom: 40rpx;
+}
+.filmLibrary_container .main_box .film_video_box .item_film.data-v-5567d936:nth-child(3n) {
+  margin-right: 0;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "片库",
+  "usingComponents": {
+    "film-img-box": "/components/filmImgBox/index"
+  }
+}
